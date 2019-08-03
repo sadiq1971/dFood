@@ -28,15 +28,26 @@ class App extends Component {
       //testing smart contract ....
       //All functions test....
 
-      // functions.addArea("demo", instance, accounts[0]);
-      // functions.getArea(0, instance);
-      //functions.getAreas(instance);
+      //functions.addArea("demo", instance, accounts[0]);
+      //functions.getArea(0, instance);
+      functions.getAreas(instance);
       //functions.addRestaurant("Test Name", "demo", 0, instance, accounts[0]);
       //functions.getRestaurant(5, instance);
       //functions.addItem(5, "Fish", 200, instance, accounts[0]);
       //functions.getItem(5, 0, instance);
-      //functions.register("User 1", "0xXXXXXXXX", instance, accounts[0]);
-
+      //functions.register("User 1", "Adress 1",0 , instance, accounts[0]);
+      // functions.placeOrder([0], [1], 0, " Adress 1, India",
+      //   5,300, instance, accounts[0]);
+      //functions.getOrder(0, instance);
+      // await functions.cancelOrder(0, instance, accounts[0]);
+      // await functions.getOrder(0, instance);
+      //functions.receiveOrder(1, instance, accounts[0]);
+      //functions.approveOrder(1, instance, accounts[0]);
+      //functions.searchAreaRestaurant(1, instance);
+      //functions.searchAreaOrder(0, instance);
+      //functions.getLockedBalanceForDelivery(1, instance);
+      //functions.acceptOrder(1, );
+      //functions.lisenEvent(contract);
 
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
