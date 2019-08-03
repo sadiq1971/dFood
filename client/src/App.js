@@ -26,17 +26,16 @@ class App extends Component {
       console.log("waiting for response");
 
       //testing smart contract ....
+      //All functions test....
 
-     //  console.log(accounts);
-     //  const response = await instance.methods.addRestaurant("Star Hotel", "Dhanmondi", 0).send(
-     //    { from: accounts[0], gas: 3000000});
-     // console.log(response);
-     // const res =  await instance.methods.getRestaurant(0).call();
-     // console.log(res);
-
-      //functions.addArea("demo", instance, accounts[0]);
-      //functions.getArea(0, instance, accounts[0]);
-
+      // functions.addArea("demo", instance, accounts[0]);
+      // functions.getArea(0, instance);
+      //functions.getAreas(instance);
+      //functions.addRestaurant("Test Name", "demo", 0, instance, accounts[0]);
+      //functions.getRestaurant(5, instance);
+      //functions.addItem(5, "Fish", 200, instance, accounts[0]);
+      //functions.getItem(5, 0, instance);
+      //functions.register("User 1", "0xXXXXXXXX", instance, accounts[0]);
 
 
       // Set web3, accounts, and contract to the state, and then proceed with an
